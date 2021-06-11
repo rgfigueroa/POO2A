@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class EvaluacionUno {
    public static void main(String[] args) {
-      // Aqui Stalin vas a crear un programa para verificar el numero de Cedula.
+      // Aqui un programa para verificar el numero de Cedula.
      Scanner entrada = new Scanner(System.in);
      System.out.println("Programa que permite ingresar cedulas");
      String matrizCedulas [][] = new String[3][3];
