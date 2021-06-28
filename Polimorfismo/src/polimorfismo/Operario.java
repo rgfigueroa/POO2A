@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package polimorfismo;
+
+/**
+ *
+ * @author roberth
+ */
+public class Operario extends Empleado implements InterfaceSueldo {
+
+    @Override
+    public void calcularSueldoVariable(int numeroHoras) {
+        System.out.println("Sueldo extra adicional al Operario es de:" + 5 * numeroHoras);
+    }
+
+}
